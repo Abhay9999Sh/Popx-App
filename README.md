@@ -1,12 +1,83 @@
-# React + Vite
+# PopX App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application implementing account management with navigation between pages.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Hosted Link](https://popx-app-neon.vercel.app/) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Repository Link
+[GitHub Repository](https://github.com/Abhay9999Sh/Popx-App) 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```sh
+git clone <https://github.com/Abhay9999Sh/Popx-App>
+cd popx-app
+```
+
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
+
+### 3️⃣ Start the Development Server
+```sh
+npm run dev
+```
+
+### 4️⃣ Build for Production
+```sh
+npm run build
+```
+
+---
+
+## 📌 Navigation Routes
+
+| Route          | Description                 |
+|---------------|-----------------------------|
+| `/`           | Home Page                   |
+| `/login`      | Login Page                  |
+| `/register`   | Registration Page           |
+| `/account`    | Account Settings Page       |
+
+---
+
+## 🔗 Folder Structure
+```
+popx-app/
+│── public/          # Static assets
+│── src/
+│   ├── assets/      # Images & icons
+│   ├── components/  # Reusable components
+│   ├── pages/       # Page components
+│   ├── App.js       # Main App Component
+│   ├── main.jsx     # Entry point
+│── .gitignore       # Git ignore file
+│── package.json     # Dependencies & scripts
+│── vite.config.js   # Vite configuration
+│── README.md        # Documentation
+```
+
+---
+
+## 📜 Technologies Used
+- React
+- React Router DOM
+- Styled Components
+- Vite
+
+---
+
+## 📢 Deployment
+### Deploy on Vercel:
+```sh
+npm install -g vercel
+vercel
+```
+
+## 🎉 Thank You!
+If you have any questions or issues, feel free to reach out. Happy coding! 🚀
